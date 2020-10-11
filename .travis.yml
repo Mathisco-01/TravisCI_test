@@ -2,5 +2,5 @@ language: go
 
 go:
   - 1.x
-  - 1.1x
   - 1.15
+  - master
