@@ -3,8 +3,8 @@ language: go
 go:
   - 1.x
   - 1.15
-  - master
 
 script:
-  - go test golang/*.go -v
+  - cd golang
+  - go test -v .
   - go build
