@@ -4,3 +4,7 @@ go:
   - 1.x
   - 1.15
   - master
+
+script:
+  - go test golang/*.go -v
+  - go build
